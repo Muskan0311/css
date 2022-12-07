@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>
+</title>
+<style>
+    body{
+        background-color:bisque;
+        
+        
+        background-size: 100%;
+    }
+    p.dotted{border: 10px DOTTED GREEN; border-radius: 5px;}
+    div{
+        border: 10px  double black;
+        margin:100px 50px 100px 50px;
+        background-color: white;
+        height: 200px;
+        width: 50%;
+        text-align: center;
+        padding:50px;
+    }
+    .p1{
+        font-family:"Times New Roman", Times, serif;
+    }
+    p.dashed{border-style:dashed;border-color: bisque GREEN magenta blueviolet;}
+    p.mix{border-style: dotted dashed solid double;border-color: pink;}
+    hn{padding: 500px 500px 700px 700px;}
+    h1{
+        color:black;
+        text-align: center;
+        border: 10px solid yellowgreen;
+        margin: 50px 50px 50px 50px;
+        padding: 5px 5px 5px 5px;
+        text-decoration-line: underline;
+        text-decoration-color: red;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-shadow: 2px 2px 5px yellow;
+    }
+    p.uppercase{
+        text-transform: uppercase;
+    }
+    p.lowercase{
+        text-transform: lowercase;
+    }
+    p.capitalize{
+        text-transform: capitalize;
+    }
+    p{
+        text-indent: 50px;
+        letter-spacing: 5px;
+        line-height: 0.8;
+        word-spacing: 10px;
+        white-space: nowrap;
+        
+        
+    }
+    p.normal{
+        font-style: normal;
+    }
+    p.italic{
+        font-style: italic;
+    }
+    p.oblique{
+        font-style: oblique;
+    }
+p1,p3,p5{
+    text-decoration: underline red double 1px;
+    background-color: blue;
+    color:black;
+    text-align:right;
+    
+}
+p2,p4,p6{
+    text-decoration: underline pink double 1px;
+    color:blueviolet;
+    text-align:left;
+    background-color: black;
+    
+}
+a{
+    color:hotpink;
+}
+/* unvisited link */
+a:link{
+    color:red;
+    text-decoration: none;
+    background-color: greenyellow;
+}
+/* visited link*/
+a.visited{
+    color:green;
+    text-decoration:underline dashed brown 2px ;
+    background-color: bisque;
+}
+/* mouse over link */
+a:hover{
+    color:blue;
+    text-decoration: underline solid black 2px;
+    background-color:maroon ;
+}
+/* selected link */
+a:active{
+    color:yellow;
+    text-decoration: underline double red 2px ;
+    background-color: magenta;
+}
+
+</style>
+</head>
+<body>
+        
+    <p><b><a href="HeNe laser (1).pdf" target="_blank">login</a></b></p>
+    <h1>CSS CLASS</h1>
+    <p1><p class="dotted">CALIFORNIA</p></p1>
+    <p2><p class="dashed">NEW YORK</p></p2>
+    <p3><p class="mix">SOUTH KOREA</p></p3>
+    <p4><p class="dotted">LOS ANGELES</p></p4>
+    <p5><p class="dashed">FRANCE</p></p5>
+    <p6><p class="mix">VENICE</p></p6>
+    <div> hello </div>
+    <p class="hn"> padding </p>
+    <p class="uppercase">hello html</p>
+    <p class="lowercase">Muskan</p>
+    <p class="capitalize">html language</p>
+    <p calss="p1"> hello css class</p>
+    <p class="normal">hyper text</p>
+    <p class="italic">markup</p>
+    <p class="oblique">language</p>
+
+
+
+    
+
+</body>
+</html>
